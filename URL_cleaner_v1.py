@@ -1,4 +1,4 @@
-# simple URL cleaner for large lists  of URLs
+# simple URL cleaner for large lists of URLs or IOCs broken by threat researchers
 
 # you can change the file directory or the name of the text file below by changing line 5.
 
