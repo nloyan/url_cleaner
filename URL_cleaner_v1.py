@@ -1,4 +1,6 @@
-# simple URL cleaner for large lists
+# simple URL cleaner for large lists  of URLs
+
+# you can change the file directory or the name of the text file below by changing line 5.
 
 import urllib.parse
 
