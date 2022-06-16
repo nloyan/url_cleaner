@@ -8,6 +8,6 @@ with open("C:/Users/xxxx/desktop/url.txt") as text_data:
         cleaned_url = parsed_url.netloc
         url_fixed = cleaned_url.replace("[.]", ".")
         url_fixed2 = url_fixed.replace("www.", "")
-        print(url_fixed2)
+        print(url_fixed)
 
 text_data.close()
