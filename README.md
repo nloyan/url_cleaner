@@ -1,5 +1,4 @@
 # url_cleaner
-a simple tool to clean a large list of URLs
 
 A simple URL cleaner to fix broken URLs shared by security researchers.
 
