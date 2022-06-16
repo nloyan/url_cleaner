@@ -7,7 +7,8 @@ with open("C:/Users/xxxx/desktop/url.txt") as text_data:
         parsed_url = urlparse(line)
         cleaned_url = parsed_url.netloc
         url_fixed = cleaned_url.replace("[.]", ".")
-        url_fixed2 = url_fixed.replace("www.", "")
-        print(url_fixed)
+        final_urls = url_fixed.replace("www.", "")
+        print(final_urls)
+        text_data.close()
 
-text_data.close()
+
